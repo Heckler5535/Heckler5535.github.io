@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="author" content="John Martin B. Ulep">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Resources</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="header-inner">
+    <div class="logo">Ulep</div>
+    <nav>
+      <a href="index.html">Learn</a>
+      <a href="subpage1.html">Experience</a>
+      <a href="subpage2.html">About me</a>
+      <a class="active" href="subpage3.html">Resources</a>
+    </nav>
+    <div class="social">Logo1</div>
+    <div class="social">Logo2</div>
+    <div class="social">Logo3</div>
+  </div>
+</header>
+<main>
+  <h1>My Resources and Where I Learned!</h1>
+
+  <div class="layout">
+    <section class="content">
+      <div class="resource">
+        <img class="small-placeholder" src="Media/Images/placeholder.png" alt="W3Schools">
+        <div>
+          <h3>W3Schools</h3>
+          <p>
+            <strong>Why I use it:</strong>
+             Quick examples and references for basic HTML and CSS.
+          </p>
+        </div>
+      </div>
+      <div class="resource">
+        <img class="small-placeholder" src="Media/Images/placeholder.png" alt="CodeChum">
+        <div>
+          <h3>CodeChum</h3>
+          <p>
+            <strong>Why I use it:</strong> 
+            Practice exercises and coding activities--The one I like the most bcs its founder is Filipino.
+          </p>
+        </div>
+      </div>
+      <div class="resource">
+        <img class="small-placeholder" src="Media/Images/placeholder.png" alt="Stack Overflow">
+        <div>
+          <h3>Stack Overflow</h3>
+          <p>
+            <strong>Why I use it/used to use it:</strong>
+            some errors that were niche/not googleable were sometimes here and I liked how users explained stuff easily.
+          </p>
+        </div>
+      </div>
+
+      <h2>Resource Table</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Website/App</th>
+            <th>Why I use this</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>W3Schools</td>
+            <td>Reference</td>
+            <td> examples and syntax</td>
+          </tr>
+          <tr>
+            <td>CodeChum</td>
+            <td>Practice</td>
+            <td>Coding activities and exercises, I like this one a lot because we used to do coding challeneges for our quarterly finals where with the given input, code in python the intake and output that calculates soemthing or outputs something with a loop</td>
+          </tr>
+          <tr>
+            <td>Stack Overflow</td>
+            <td>Troubleshooting</td>
+            <td>Community Q&amp;A about coding (Stopped using this after chatgpt stopped produce slop code ngl)</td>
+          </tr>
+          <tr>
+            <td>VSCode</td>
+            <td>Editing</td>
+            <td>Code editor and the beloved live server function, I also rlly like the gui, I fully transitioned out of sublime in 2023 b/c it got harder to constantly keep up with the new changes and vscode rlly just makes finding your files easier with the explorer tab option thing.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>Interactive Components for User Feedback</h2>
+      <form>
+        <label for="resource">Choose a resource:</label>
+        <select id="resource" name="resource">
+          <option>W3Schools</option>
+          <option>CodeChum</option>
+          <option>Stack Overflow</option>
+          <option>VS Code</option>
+        </select>
+        <label for="name">Your name:</label>
+        <input id="name" type="text" placeholder="Enter your name">
+        <label for="comment">Comment:</label>
+        <textarea id="comment" rows="4" placeholder="Write a short comment abt why you would or wouldnt use this"></textarea>
+        <button type="submit">Submit</button>
+        <button type="reset">Clear</button>
+      </form>
+    </section>
+    <aside>
+      <h3>Sidebar</h3>
+      <p><strong>(Might remove this, not needed.)</strong></p>
+      <img class="small-placeholder" src="Media/Images/placeholder.png" alt="img">
+      <p>Image : .</p>
+    </aside>
+  </div>
+</main>
+<footer>
+  <div class="footer-inner">
+    <span>Contact Information: johnmartinulep1223@gmail.com</span>
+    <span>© 2026 CMM</span>
+  </div>
+</footer>
+</body>
+</html>
