@@ -2,10 +2,11 @@
 	box-sizing: border-box;
 }
 /*  font-family: "Georgia", "Garamond", "Times New Roman", serif;
+	Implemented in body, 14/10/26
 */
 body {
 	margin: 0;
-	font-family: Arial, sans-serif;
+	font-family: "Georgia", "Garamond", "Times New Roman", serif;
 	color: #111;
 	background: #fff;
 }
@@ -121,6 +122,7 @@ aside {
 	height: 90px;
 	object-fit: cover;
 	border: 1px solid #111;
+	box-shadow: 10px 1px 4px rgba(0, 0, 0, 0.2); 
 }
 
 .card-row {
@@ -295,3 +297,4 @@ footer {
 		margin-bottom: 30px;
 	}
 }
+

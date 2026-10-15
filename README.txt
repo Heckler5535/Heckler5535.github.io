@@ -29,4 +29,14 @@ Create sprites to make sure 1gb max wont get hit on Github Pages & to stave stor
    TODO: Implement the slideshow functionality 
         maybe just connect dots to an image and when clicked, it shows the corresponding image and
         just bolden the active dot (?) do not inline css-->
-        
+      
+14/10/2026
+Change body font to 
+      font-family: "Georgia", "Garamond", "Times New Roman", serif;
+from
+      font-family: Arial, sans-serif;
+
+margin in body exists @ 0px
+
+Added small shadow to class small-placeholder
+      box-shadow: 10px 1px 4px rgba(0, 0, 0, 0.2);
